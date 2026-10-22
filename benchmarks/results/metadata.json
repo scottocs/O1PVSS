@@ -1,0 +1,45 @@
+{
+  "environment": {
+    "cpu": "not available",
+    "memory_bytes": "not available",
+    "physical_cores": "not available",
+    "macos": "26.5.2",
+    "rustc": "rustc 1.98.0 (88d9e12ae 2026-08-18)",
+    "cargo": "cargo 1.98.0 (797e8a9bc 2026-08-05)"
+  },
+  "sizes": [
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512
+  ],
+  "threshold": "floor(n/2)+1",
+  "orientation": "Instantiation II logical G1/G2 = physical BLS12-381 G2/G1; all single-group schemes use physical G1.",
+  "sampling": {
+    "warmup_calls": 3,
+    "batches": 10,
+    "target_batch_ms": 20,
+    "minimum_calls": 5,
+    "minimum_threshold_workload_calls": 1,
+    "maximum_calls": 128
+  },
+  "group_sampling": {
+    "warmup_calls": 32,
+    "batches": 10,
+    "calls_per_batch": 256
+  },
+  "scope": "Setup and deterministic public preprocessing are excluded from online timings. Only public preprocessing is cached.",
+  "sha256": {
+    "comparison.csv": "ae4309a6c6eb183dc38c45c28a2a4356ab8c2c3e328fd73c86b2c0c9940b0799",
+    "comparison.samples.csv": "21fb9ad617a9d0f8ec89d937c01639abf8c091ab19d437773ae650c125c725eb",
+    "group-costs.csv": "9d66701ce58aa6f323a574910807f0148c805b5f3d251fafddcfe022c32e399f",
+    "group-costs.samples.csv": "36fcca2caaddd48a9fecd60a253de7b54b8d1c62006b60947f97f82aeab522f6",
+    "payloads.csv": "a875645a75bb567c33bfcbb93d81aa21a3d8639d0f4a65330babd2e2fa422bc9",
+    "supplementary.csv": "bb842cda2bc45dde4bb80901cc86270a2effb190095ac02a1616eb1df751240c",
+    "supplementary.samples.csv": "446f4501067b75d8941d2c98bdc6fa9c9564fd2b01f266a556330f4f0c050b85"
+  }
+}
